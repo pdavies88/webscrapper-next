@@ -45,3 +45,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Create a Hotmail email account
 - In `lib/nodemailer` add your email address as `user` in the `auth` and `mailOptions` objects
 - Add Hotmail password to .env file
+
+## Cron Job
+
+- Deploy the application
+- Create an account via [https://cron-job.org/en/](https://cron-job.org/en/)
+- Create a new job pointing at the apps api cron endpoint `/api/cron`
+- Schedule job to run at the interval you would like
